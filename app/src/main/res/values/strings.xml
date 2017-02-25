@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartMonitor</string>
+
+    <string-array name="map_types_list">
+        <!--<item>None</item>-->
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+        <item>Terrain</item>
+    </string-array>
+
+    <string name="tab_map">Mapa</string>
+    <string name="tab_chart">Gráfico</string>
+    <string name="tipo_mapa">Seleccione tipo de mapa</string>
+    <string name="tipo_mapa_menu">Tipo de mapa</string>
+    <string name="action_settings">Configuración</string>
+</resources>

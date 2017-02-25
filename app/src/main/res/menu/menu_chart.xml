@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.simadesarrollos.smartmonitor.ui.fragments.ChartFragment">
+
+    <item
+        android:id="@+id/actionCalendar"
+        android:title=""
+        android:icon="@drawable/ic_calendar_white_48dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_picker"
+        android:title="Cambiar fecha"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionToggleValues"
+        android:title="Valores">
+    </item>
+    <item
+        android:id="@+id/actionGridAxis"
+        android:title="Grilla">
+    </item>
+    <item
+        android:id="@+id/actionToggleFilled"
+        android:title="Relleno">
+    </item>
+    <item
+        android:id="@+id/actionToggleCircles"
+        android:title="Circulos">
+    </item>
+    <item
+        android:id="@+id/actionToggleStepped"
+        android:title="Pasos">
+    </item>
+    <item
+        android:id="@+id/actionToggleHorizontalCubic"
+        android:title="Cubica">
+    </item>
+    <item
+        android:id="@+id/animateY"
+        android:title="Animar">
+    </item>
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
